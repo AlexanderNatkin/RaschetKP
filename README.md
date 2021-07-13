@@ -1,1 +1,1 @@
-# RaschetKP
+Тестовый проект на Spring Boot
