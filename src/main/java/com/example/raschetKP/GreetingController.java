@@ -18,9 +18,9 @@ public class GreetingController {
         model.put("some", "Hello, Bitches!");
         return "main";
     }
-    @GetMapping("/testPage")
-    public String testPage (Map<String, Object> model) {
-        model.put("sameOne", "Hi, I am very happy!");
-        return "testPage";
+    @GetMapping("/testPage") // страница сайта
+    public String testPage (Map<String, Object> model) { //
+        model.put("someOne", "Hi, I am very happy!"); // в значение someOne кладем значение после запятой
+        return "testPage"; // возвращаем страницу с шаблоном testPage и новыми значениями
     }
 }
